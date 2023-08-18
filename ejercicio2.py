@@ -1,3 +1,10 @@
+"""
+Escribir una función que calcule el mínimo común múltiplo 
+entre dos números
+
+"""
+
+
 def calcular_mcd(a, b):
     while b:
         a, b = b, a % b

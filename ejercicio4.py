@@ -1,3 +1,12 @@
+"""
+Escribir una función que reciba una cadena de caracteres 
+y devuelva un diccionario con cada palabra que contiene 
+y la cantidad de veces que aparece (frecuencia). 
+Escribir otra función que reciba el diccionario 
+generado con la función anterior y devuelva una tupla 
+con la palabra más repetida y su frecuencia
+"""
+
 def contar_palabras(cadena):
     palabras = cadena.split() #.split() va cortando las palabras, cada vez que hay un espacio, y crea una lista donde mete cada una de esas palabras
     frecuencia = {} #creamos un diccionario vacio

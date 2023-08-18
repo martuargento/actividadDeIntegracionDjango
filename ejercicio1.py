@@ -1,3 +1,9 @@
+"""
+Escribir una función que calcule el máximo común divisor 
+entre dos números.
+
+"""
+
 def calcular_mcd(a, b):
     while b:
         nuevo_a = b
