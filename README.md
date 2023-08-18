@@ -1,1 +1,1 @@
-# actividad De Integracion de Python, en curso Django, de Codo a Codo
+# Actividad de integración de Python, en curso Django, de Codo a Codo
