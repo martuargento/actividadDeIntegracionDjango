@@ -1,6 +1,8 @@
 def calcular_mcd(a, b):
     while b:
-        a, b = b, a % b
+        nuevo_a = b
+        nuevo_b = a % b
+        a, b = nuevo_a, nuevo_b
     return a
 
 numero1 = int(input("Ingrese el primer número: "))
